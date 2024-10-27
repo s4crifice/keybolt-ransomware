@@ -58,7 +58,7 @@ KeyBolt is developed in C and requires a Linux environment for compilation. Ensu
 1. Clone the repository:
 
     ```bash
-    git clone https://your-repo-url.git
+    git clone https://github.com/s4crifice/keybolt-ransomware.git
     cd KeyBolt
     ```
 
@@ -67,21 +67,21 @@ KeyBolt is developed in C and requires a Linux environment for compilation. Ensu
     On Debian-based systems, use:
 
     ```bash
-    sudo apt-get install build-essential libssl-dev
+    sudo apt-get install build-essential libssl-dev 
     ```
 
-3. Compile the program:
+3. Go to scripts/:
 
     Run the following command in the terminal:
 
     ```bash
-    gcc -o keybolt main.c -lssl -lcrypto -lpthread -lws2_32
+    cd scripts
     ```
 
 4. Run the program:
 
     ```bash
-    ./keybolt
+    ./build_project.sh
     ```
 
 ### Example Server
