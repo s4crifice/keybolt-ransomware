@@ -86,7 +86,7 @@ KeyBolt is developed in C and requires a Linux environment for compilation. Ensu
 
 ### Example Server
 
-Below is a simple Python server implementation that can be used to receive data from KeyBolt. Ensure you have Flask installed to run this server.
+Below is a simple Python server implementation that can be used to receive data from KeyBolt. Ensure you have pycryptodome installed to run this server and decrypt data.
 
 #### Python Server Example
 
